@@ -1,47 +1,26 @@
 import React from "react";
 import "./App.css";
+import profileImage from "./assets/profile.jpg"; 
 
 function App() {
   return (
-    <div className="portfolio">
-      <header className="header">
-        <h1>ELLA PACUNDO</h1>
-        <p>Frontend Developer</p>
-      </header>
+    <div className="hero-container">
+      {/* Left side - image */}
+      <div className="hero-image">
+        <img src={heroImage} alt="Portrait" />
+      </div>
 
-      <section className="about">
-        <h2>About Me</h2>
+      {/* Right side - text content */}
+      <div className="hero-text">
+        <h1>Hej.</h1>
+        <h1>It's her.</h1>
         <p>
-          Hi! I'm a frontend developer trainee who loves turning designs into
-          real, interactive websites. I'm comfortable working with React and
-          JavaScript, and I really enjoy building clean, responsive interfaces
-          that work well on any device.
+          Portraits to empower women. This is my mission.
+          <br />
+          Headshots and personal branding photography by Ella Pacundo.
         </p>
-      </section>
-
-      <section className="projects">
-        <h2>Projects</h2>
-        <div className="project-list">
-          <div className="project">
-            <h3>Project One</h3>
-            <p>Library.</p>
-          </div>
-          <div className="project">
-            <h3>Project Two</h3>
-            <p>A React web app for house inventory.</p>
-          </div>
-          <div className="project">
-            <h3>Project Three</h3>
-            <p>A responsive portfolio website built with HTML/CSS/JS.</p>
-          </div>
-        </div>
-      </section>
-
-      <section className="contact">
-        <h2>Contact</h2>
-        <p>Email: ellamaepacundo07@gmail.com</p>
-        <p>LinkedIn: linkedin.com/in/ellamaepacundo</p>
-      </section>
+        <button className="read-more">Read More</button>
+      </div>
     </div>
   );
 }
