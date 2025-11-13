@@ -1,32 +1,12 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
-function SocialLinks() {
+export default function SocialLinks() {
   return (
-    <div className="social-links">
-      <a
-        href="https://linkedin.com/in/ellamaepacundo"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="LinkedIn"
-      >
-        <FaLinkedin />
-      </a>
-      <a
-        href="https://github.com/ellamaepacundo07-ctrl"
-        rel="noopener noreferrer"
-        aria-label="GitHub"
-      >
-        <FaGithub />
-      </a>
-      <a
-        href="mailto:ellamaepacundo07@gmail.com"
-        aria-label="Email"
-      >
-        <FaEnvelope />
-      </a>
-    </div>
+    <section id="contact" className="social-links">
+      <a href="https://linkedin.com/in/ellamaepacundo" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+      <a href="https://github.com/ellamaepacundo07-ctrl" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+      <a href="mailto:ellamaepacundo07@gmail.com"><FaEnvelope /></a>
+    </section>
   );
 }
-
-export default SocialLinks;

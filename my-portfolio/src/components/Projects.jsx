@@ -1,34 +1,23 @@
 import React from "react";
 
-function Projects() {
-  const projectData = [
-    {
-      title: "Project One",
-      description: "Library.",
-    },
-    {
-      title: "Project Two",
-      description: "A React web app for house inventory.",
-    },
-    {
-      title: "Project Three",
-      description: "A responsive portfolio website built with HTML/CSS/JS.",
-    },
-  ];
+const projects = [
+  { title: "Project One", description: "Library." },
+  { title: "Project Two", description: "React web app for house inventory." },
+  { title: "Project Three", description: "Responsive portfolio website with HTML/CSS/JS." },
+];
 
+export default function Projects() {
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <h2>Projects</h2>
       <div className="project-list">
-        {projectData.map((project, index) => (
-          <div key={index} className="project">
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
+        {projects.map((p, i) => (
+          <div className="project" key={i}>
+            <h3>{p.title}</h3>
+            <p>{p.description}</p>
           </div>
         ))}
       </div>
     </section>
   );
 }
-
-export default Projects;
