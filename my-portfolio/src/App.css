@@ -17,7 +17,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Navbar */
 .navbar {
   position: sticky;
   top: 0;
@@ -44,7 +43,6 @@ body {
   color: #b75b5b;
 }
 
-/* Hero Section */
 .hero-container {
   display: flex;
   height: 100vh;
@@ -93,7 +91,6 @@ body {
   transform: translateY(-2px);
 }
 
-/* Projects Section */
 .projects {
   padding: 4rem 2rem;
   background: #f9f9f9;
@@ -126,8 +123,6 @@ body {
   font-family: "Playfair Display", serif;
   margin-bottom: 0.5rem;
 }
-
-/* Information Section */
 .information {
   padding: 4rem 2rem;
   background: #fff;
@@ -163,7 +158,6 @@ body {
   padding-left: 1.2rem;
 }
 
-/* Download Button */
 .information-download a button {
   margin-top: 1.5rem;
   padding: 0.7rem 1.5rem;
@@ -177,8 +171,6 @@ body {
 .information-download a button:hover {
   background: #a14a4a;
 }
-
-/* Social Links */
 .social-links {
   display: flex;
   justify-content: center;
@@ -195,7 +187,6 @@ body {
   transform: scale(1.2);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .hero-container {
     flex-direction: column;
