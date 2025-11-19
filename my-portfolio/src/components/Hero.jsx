@@ -8,12 +8,27 @@ export default function Hero() {
         <img src={profileImage} alt="Ella Pacundo" />
       </div>
       <div className="hero-text">
-        <h1>Hej.</h1>
-        <h1>It's her.</h1>
+        <h1>Hello, I'm Ella.</h1>
+        <h2>Front-End Developer • Data Entry Assistant • Graphic Design</h2>
+
         <p>
-          Portraits to empower women. Headshots and personal branding photography by Ella Pacundo.
+          I’m a tech-savvy, detail-oriented professional with experience in
+          front-end development, technical support, data encoding, and digital
+          design. I specialize in handling administrative tasks with accuracy
+          and efficiency while supporting teams through reliable communication
+          and organized workflow management.
         </p>
-        <button className="read-more">Read More</button>
+
+        <button
+          className="read-more"
+          onClick={() => {
+            document
+              .getElementById("work")
+              .scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Explore My Work
+        </button>
       </div>
     </section>
   );

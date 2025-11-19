@@ -20,7 +20,7 @@ export default function Information() {
           <h3><FaGraduationCap /> Education</h3>
           <ul>
             <li>Caraga Institute of Technology – Teacher Certificate (2025-2026)</li>
-            <li>Northeastern Mindanao Colleges – BSc IT (2021-2025), Associate Computer Tech (2021-2023)</li>
+            <li>Northeastern Mindanao Colleges – BSIT (2021-2025), Associate Computer Tech (2021-2023)</li>
             <li>Kitcharao National High School – Senior High STEM (2019-2021), Junior High (2015-2019)</li>
           </ul>
         </div>
