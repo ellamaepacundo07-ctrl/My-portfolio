@@ -9,7 +9,7 @@ export default function Project() {
       icon: <FaCode />,
       description:
         "A searchable digital library designed to organize and streamline access to reading materials.",
-      link: "#",
+      link: "https://drive.google.com/file/d/1xORtkC3QQUqgxZKVYmkBlFqMen6tRotA/view?usp=drive_link",
     },
     {
       title: "Home Inventory Management App",
@@ -17,7 +17,7 @@ export default function Project() {
       icon: <FaCode />,
       description:
         "A React-based web application for tracking household inventory with a user-friendly interface.",
-      link: "#",
+      link: "https://drive.google.com/file/d/1okLtbdv5PUGy_L8e4SvvdeYsmfd280sr/view?usp=drive_link",
     },
     {
       title: "Data Entry & Record Management",
